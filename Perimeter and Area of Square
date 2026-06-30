@@ -1,0 +1,6 @@
+s = int(input('Enter the side of the square: '))
+c = int(input('Enter 1 for Area, 2 for Perimeter: '))
+if (c==1) :
+    print ('Area = ', str(s*s))
+if (c==2) :
+    print ('Perimeter = ', str(4*s))
